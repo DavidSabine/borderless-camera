@@ -44,8 +44,8 @@ ipc.on('invokeAction', function(event, data){
 function createWindow () {
   // Create the browser window.
   win = new BrowserWindow({
-    width: 480,
-    height: 320,
+    width: 640,
+    height: 480,
     transparent: true,
     // titleBarStyle: 'hidden-inset',
     frame: false,
